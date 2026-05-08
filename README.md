@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install techsheet/tap/<formula>`
+`brew install techsheet/tap/techsheet-cli`
 
-Or `brew tap techsheet/tap` and then `brew install <formula>`.
+Or `brew tap techsheet/tap` and then `brew install techsheet-cli`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "techsheet/tap"
-brew "<formula>"
+brew "techsheet-cli"
 ```
 
 ## Documentation
