@@ -4,14 +4,9 @@ class TechsheetCli < Formula
   license "Apache-2.0"
 
   on_macos do
-    on_intel do
-      disable! date: "2025-01-01", because: "No builds for Intel Macs. Please use docker, jvm or build from source."
-    end
-    on_arm do
-      url "https://github.com/techsheet/techsheet/releases/download/v1.3.0/techsheet-macos-arm64"
-      sha256 "3dd95d7359966eadedd635d891051f58e40c935a0c88ce8cc0b0ce2567672b13"
-      version "1.3.0"
-    end
+    url "https://github.com/techsheet/techsheet/releases/download/v1.3.0/techsheet-macos-arm64"
+    sha256 "3dd95d7359966eadedd635d891051f58e40c935a0c88ce8cc0b0ce2567672b13"
+    version "1.3.0"
   end
 
   on_linux do
