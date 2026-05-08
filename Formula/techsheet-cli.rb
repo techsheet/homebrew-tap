@@ -5,7 +5,7 @@ class TechsheetCli < Formula
 
   on_macos do
     on_intel do
-      disable! date: "2025-01-01", because: "We don't provide legacy builds for Intel Macs. Please use docker, jvm or build from source."
+      disable! date: "2025-01-01", because: "No builds for Intel Macs. Please use docker, jvm or build from source."
     end
     on_arm do
       url "https://github.com/techsheet/techsheet/releases/download/v1.3.0/techsheet-macos-arm64"
