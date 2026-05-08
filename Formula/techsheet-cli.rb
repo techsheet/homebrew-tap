@@ -9,6 +9,9 @@ class TechsheetCli < Formula
       sha256 "3dd95d7359966eadedd635d891051f58e40c935a0c88ce8cc0b0ce2567672b13"
       version "1.3.0"
     end
+    on_intel do
+      disable! date: "2025-05-08", because: :unsupported
+    end
   end
 
   on_linux do
